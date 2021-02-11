@@ -5,9 +5,8 @@ Linked PRs: (if any)
 
 Documentation: (if any)
 
-#### Story/Time points so far
-Estimated:
-Actual:
+## Ops Summary
+<A short summary of the changes from the perspective of an end user, admin or otherwise>
 
 ## The Problem
 
