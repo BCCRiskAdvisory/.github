@@ -1,0 +1,6 @@
+{
+  "name": "Unfreeze Develop",
+  "description": "Edgescan CI workflow template for unfreezing develop after merge or close of deploy PR.",
+  "iconName": "logo",
+  "categories": ["Ruby, Javascript"]
+}

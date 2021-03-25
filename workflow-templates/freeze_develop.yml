@@ -1,0 +1,45 @@
+name: "Freeze Develop"
+
+on:
+  pull_request:
+    types: [opened, reopened, ready_for_review]
+    branches: [master, main]
+
+jobs:
+  pipeline:
+    if: github.event.pull_request.head.ref == $default-branch
+    name: Unfreeze Develop
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/github-script@v3
+        with:
+          github-token: ${{secrets.DEPLOY_FREEZE_ACTION_ACCESS}}
+          script: |
+            const query = `query MyQuery {
+              __typename
+              repository(name: `${context.repo.repo}`, owner: "BCCRiskAdvisory") {
+                id
+                branchProtectionRules(last: 10) {
+                  nodes {
+                    id
+                    pattern
+                  }
+                }
+              }
+            }`;
+
+            const protectionRules = await github.graphql(query, {})
+            const developProtectionRule = protectionRules.repository.branchProtectionRules.nodes.find((rule) => rule.pattern === 'develop')
+
+            if(developProtectionRule) {
+              const mutation = `mutation($protectionRuleId:ID!) {
+                updateBranchProtectionRule(input: {branchProtectionRuleId: $protectionRuleId, restrictsPushes: true}) {
+                  clientMutationId
+                }
+              }`
+              const variables = {
+                protectionRuleId: developProtectionRule.id
+              }
+              await github.graphql(mutation, variables)
+            }

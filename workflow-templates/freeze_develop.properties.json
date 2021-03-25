@@ -1,0 +1,6 @@
+{
+  "name": "Freeze Develop",
+  "description": "Edgescan CI workflow template for freezing develop.",
+  "iconName": "logo",
+  "categories": ["Ruby, Javascript"]
+}
