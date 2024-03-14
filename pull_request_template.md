@@ -8,7 +8,7 @@
 > <i>Make sure all these are true before requesting review.<i/>
 - [ ] All code changes covered by unit tests?
 - [ ] All unit tests passing?
-- [ ] No new rubocop warnings?
+- [ ] No new rubocop/eslint warnings?
 - [ ] All relevant documentation updated?
 - [ ] All changes QA'd locally?
 - [ ] PR Description filled in fully and all items considered?
