@@ -11,6 +11,7 @@
 - [ ] No new rubocop/eslint warnings?
 - [ ] All relevant documentation updated?
 - [ ] All changes QA'd locally?
+- [ ] Any FE changes QA'd at both min and max resolution?
 - [ ] PR Description filled in fully and all items considered?
 
 ## Documentation:
