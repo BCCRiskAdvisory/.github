@@ -5,7 +5,7 @@
 - **[Description of relation to other PR (or remove section)](<link to PR>)**
 
 ## Pre-review Checklist
-> <i>Make sure all these are true before requesting review.<i/>
+> <i>Make sure all these are true before requesting review.</i>
 - [ ] All code changes covered by unit tests?
 - [ ] All unit tests passing?
 - [ ] No new rubocop/eslint warnings?
@@ -15,7 +15,7 @@
 - [ ] PR Description filled in fully and all items considered?
 
 ## Documentation:
-> <i>If the answer to any of these is yes please provide links to documentation below details below.<i/>
+> <i>If the answer to any of these is yes please provide links to documentation below details below.</i>
 - [ ] Includes new endpoint / changes to request params, required permissions, or serialized responses?
 - [ ] Includes changes to user frontend?
 - [ ] Includes changes/new core business logic that would be useful for the user to understand?
@@ -23,22 +23,22 @@
 - **(insert link to documentation or remove bullet point if none)**
 
 ## User Story / Stories
-> <i>Describe who will be affected by changes in this PR and what value it brings to them. See examples [here](https://www.atlassian.com/agile/project-management/user-stories).<i/>
+> <i>Describe who will be affected by changes in this PR and what value it brings to them. See examples [here](https://www.atlassian.com/agile/project-management/user-stories).</i>
 - **As a <persona>, I [want to], [so that]**
 - **As a <persona>, I [want to], [so that]**
 
 ## Reason for Changes / Problem Description
-> <i>Short description(s) of the reason(s) behind the work and/or the problem(s) we're trying to solve. Ensure that all changes the PR introduces are covered and not just those described in the ticket. This is to help our future selves understand the intent of the code.<i/>
+> <i>Short description(s) of the reason(s) behind the work and/or the problem(s) we're trying to solve. Ensure that all changes the PR introduces are covered and not just those described in the ticket. This is to help our future selves understand the intent of the code.</i>
 - **(insert short description here)**
 - **(insert short description here)**
 
 ## Description of Changes
-> <i>Short description(s) of the technical changes in the PR. This is to help the reviewer (and our future selves) understand at a high-level what was changed in this PR. This should cover all code changes.<i/>
+> <i>Short description(s) of the technical changes in the PR. This is to help the reviewer (and our future selves) understand at a high-level what was changed in this PR. This should cover all code changes.</i>
 - **(insert short description here)**
 - **(insert short description here)**
 
 ## Deployment Impacts
-> <i>If the answer to any of these is yes please provide more details below.<i/>
+> <i>If the answer to any of these is yes please provide more details below.</i>
 - [ ] Are database migrations required?
 - [ ] Are data migrations required?
 - [ ] Are permissions affected?
@@ -49,7 +49,7 @@
 - **(Insert deployment impact detail or remove bullet point if none)**
 
 ## Security Impacts
-> <i>If the answer to any of these is yes please provide more details below.<i/>
+> <i>If the answer to any of these is yes please provide more details below.</i>
 - [ ] Might users gain access to unauthorized data (admin-only, other orgs, etc.)?
 - [ ] Might changes cause issues with hierarchical organizations and permissions?
 - [ ] Do these changes affect critical functionality?
