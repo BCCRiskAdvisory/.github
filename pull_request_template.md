@@ -19,8 +19,10 @@
 - [ ] Includes new endpoint / changes to request params, required permissions, or serialized responses?
 - [ ] Includes changes to user frontend?
 - [ ] Includes changes/new core business logic that would be useful for the user to understand?
+<!-- (Don't Delete) Location Marker for Citrine Parsing: documentation section start -->
 - **(insert link to documentation or remove bullet point if none)**
 - **(insert link to documentation or remove bullet point if none)**
+<!-- (Don't Delete) Location Marker for Citrine Parsing: documentation section end -->
 
 ## User Story / Stories
 > <i>Describe who will be affected by changes in this PR and what value it brings to them. See examples [here](https://www.atlassian.com/agile/project-management/user-stories).</i>
@@ -61,5 +63,7 @@
 - [ ] Does it add additional functionality where users can input data that may be susceptible to SQL injection (i.e. filters, text inputs, etc.)?
 - [ ] Might changes permit a Denial of Service attack from users/Edgescan services?
 - [ ] Are any new dependencies being added with active NPM/bundle audit or security issues?
+<!-- (Don't Delete) Location Marker for Citrine Parsing: security impact start -->
 - **(Insert security impact detail or remove bullet point if none)**
 - **(Insert security impact detail or remove bullet point if none)**
+<!-- (Don't Delete) Location Marker for Citrine Parsing: security impact end -->
