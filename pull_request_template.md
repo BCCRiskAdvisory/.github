@@ -29,9 +29,10 @@
 
 ## Reason for Changes / Problem Description
 > <i>Short description(s) of the reason(s) behind the work and/or the problem(s) we're trying to solve. Ensure that all changes the PR introduces are covered and not just those described in the ticket. This is to help our future selves understand the intent of the code.</i>
-- **(insert short description here)**
+<!-- (Don't Delete) Location Marker for Citrine Parsing: problem description start -->
 - **(insert short description here)**
 
+<!-- (Don't Delete) Location Marker for Citrine Parsing: problem description end -->
 ## Description of Changes
 > <i>Short description(s) of the technical changes in the PR. This is to help the reviewer (and our future selves) understand at a high-level what was changed in this PR. This should cover all code changes.</i>
 - **(insert short description here)**
@@ -45,9 +46,11 @@
 - [ ] Are serializer affected in a breaking way?
 - [ ] Might changes affect lots of different places?
 - [ ] Might changes break existing contracts with other Edgescan services?
+<!-- (Don't Delete) Location Marker for Citrine Parsing: deployment impact start -->
 - **(Insert deployment impact detail or remove bullet point if none)**
 - **(Insert deployment impact detail or remove bullet point if none)**
 
+<!-- (Don't Delete) Location Marker for Citrine Parsing: deployment impact end -->
 ## Security Impacts
 > <i>If the answer to any of these is yes please provide more details below.</i>
 - [ ] Might users gain access to unauthorized data (admin-only, other orgs, etc.)?
