@@ -37,9 +37,9 @@
 
 <!-- (Don't Delete) Location Marker for Citrine Parsing: problem description end -->
 ## Description of Changes
-> <i>Short description(s) of the technical changes in the PR. This is to help the reviewer (and our future selves) understand at a high-level what was changed in this PR. This should cover all code changes.</i>
-- **(insert short description here)**
-- **(insert short description here)**
+> <i>Short description(s) of the technical changes in the PR. This is to help the reviewer (and our future selves) understand at a high-level what was changed in this PR. This should cover all code changes. For FE changes please include screenrecording and/or screenshots to help reviewers see UI & UX.</i>
+- **(insert short description/screenshot/screenrecording here)**
+- **(insert short description/screenshot/screenrecording here)**
 
 ## Deployment Impacts
 > <i>If the answer to any of these is yes please provide more details below.</i>
