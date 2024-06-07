@@ -43,8 +43,8 @@
 ## Deployment Impacts
 > <i>If the answer to any of these is yes please provide more details below.</i>
 - [ ] Are database migrations required?
-- [ ] Are data migrations required?
-- [ ] Are permissions affected?
+- [ ] [Are data migrations required?](https://edgescan.atlassian.net/wiki/spaces/DEV/pages/3936354318/Data+Migrations+how-to)
+- [ ] [Are permissions affected?](https://edgescan.atlassian.net/wiki/spaces/DEV/pages/4113432577/Adding+New+Authorization+Permissions)
 - [ ] Are serializer affected in a breaking way?
 - [ ] Might changes affect lots of different places?
 - [ ] Might changes break existing contracts with other Edgescan services?
