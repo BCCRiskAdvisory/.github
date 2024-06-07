@@ -15,7 +15,7 @@
 - [ ] PR Description filled in fully and all items considered?
 
 ## Documentation:
-> <i>If the answer to any of these is yes please provide links to documentation below details below.</i>
+> <i>If the answer to any of these is yes please provide links to documentation below details below as per [documentation guidelines](https://edgescan.atlassian.net/wiki/spaces/DEV/pages/edit-v2/4121853954?draftShareId=a7e6be00-7aba-4f29-822a-7511b6b949df).</i>
 - [ ] Includes new endpoint / changes to request params, required permissions, or serialized responses?
 - [ ] Includes changes to user frontend?
 - [ ] Includes changes/new core business logic that would be useful for the user to understand?
