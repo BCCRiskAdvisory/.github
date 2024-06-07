@@ -11,11 +11,11 @@
 - [ ] No new rubocop/eslint warnings?
 - [ ] All relevant documentation updated?
 - [ ] All changes QA'd locally?
-- [ ] Any FE changes QA'd at both [min and max resolution](https://edgescan.atlassian.net/wiki/spaces/DEV/pages/4121526273/Min+Max+Screen+Resolution)?
+- [ ] Any FE changes QA'd at both [min and max resolution](https://edgescan.atlassian.net/wiki/spaces/DEV/pages/4121526273)?
 - [ ] PR Description filled in fully and all items considered?
 
 ## Documentation:
-> <i>If the answer to any of these is yes please provide links to documentation below details below as per [documentation guidelines](https://edgescan.atlassian.net/wiki/spaces/DEV/pages/4121853954/Documentation+Requirements).</i>
+> <i>If the answer to any of these is yes please provide links to documentation below details below as per [documentation guidelines](https://edgescan.atlassian.net/wiki/spaces/DEV/pages/4121853954).</i>
 - [ ] Includes new endpoint / changes to request params, required permissions, or serialized responses?
 - [ ] Includes changes to user frontend?
 - [ ] Includes changes/new core business logic that would be useful for the user to understand?
@@ -43,8 +43,8 @@
 ## Deployment Impacts
 > <i>If the answer to any of these is yes please provide more details below.</i>
 - [ ] Are database migrations required?
-- [ ] [Are data migrations required?](https://edgescan.atlassian.net/wiki/spaces/DEV/pages/3936354318/Data+Migrations+how-to)
-- [ ] [Are permissions affected?](https://edgescan.atlassian.net/wiki/spaces/DEV/pages/4113432577/Adding+New+Authorization+Permissions)
+- [ ] [Are data migrations required?](https://edgescan.atlassian.net/wiki/spaces/DEV/pages/3936354318)
+- [ ] [Are permissions affected?](https://edgescan.atlassian.net/wiki/spaces/DEV/pages/4113432577)
 - [ ] Are serializer affected in a breaking way?
 - [ ] Might changes affect lots of different places?
 - [ ] Might changes break existing contracts with other Edgescan services?
