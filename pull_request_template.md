@@ -12,6 +12,7 @@
 - [ ] All relevant documentation updated?
 - [ ] All changes QA'd locally?
 - [ ] Any FE changes QA'd at both [min and max resolution](https://edgescan.atlassian.net/wiki/spaces/DEV/pages/4121526273)?
+- [ ] [Data test ID's](https://edgescan.atlassian.net/wiki/spaces/DEV/pages/969277449) added to all relevant FE components for QA?
 - [ ] PR Description filled in fully and all items considered?
 
 ## Documentation:
