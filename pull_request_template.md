@@ -11,7 +11,7 @@
 - [ ] No new rubocop/eslint warnings?
 - [ ] All relevant documentation updated?
 - [ ] All changes QA'd locally?
-- [ ] Any FE changes QA'd at both min and max resolution?
+- [ ] Any FE changes QA'd at both [min and max resolution](https://edgescan.atlassian.net/wiki/spaces/DEV/pages/4121526273/Min+Max+Screen+Resolution)?
 - [ ] PR Description filled in fully and all items considered?
 
 ## Documentation:
