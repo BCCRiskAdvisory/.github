@@ -41,7 +41,7 @@
 - **(insert short description here)**
 
 ## Deployment Impacts
-> <i>If the answer to any of these is yes please provide more details below.</i>
+> <i>If the answer to any of these is yes please provide more details below. DO NOT put a script in here to be run by deployer</i>
 - [ ] Are database migrations required?
 - [ ] Are data migrations required?
 - [ ] Are permissions affected?
