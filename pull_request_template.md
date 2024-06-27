@@ -15,13 +15,13 @@
 - [ ] PR Description filled in fully and all items considered?
 
 ## Documentation:
-> <i>If the answer to any of these is yes please provide links to documentation below details below.</i>
+> <i>If the answer to any of these is yes please provide links to documentation below details below. </i>
 - [ ] Includes new endpoint / changes to request params, required permissions, or serialized responses?
 - [ ] Includes changes to user frontend?
 - [ ] Includes changes/new core business logic that would be useful for the user to understand?
+- **(insert link to internal documentation or remove bullet point if none)**
 <!-- (Don't Delete) Location Marker for Citrine Parsing: documentation section start -->
-- **(insert link to documentation or remove bullet point if none)**
-- **(insert link to documentation or remove bullet point if none)**
+- **(insert link to external documentation for deploy tzar to publish upon deploy or remove bullet point if none)**
 <!-- (Don't Delete) Location Marker for Citrine Parsing: documentation section end -->
 
 ## User Story / Stories
